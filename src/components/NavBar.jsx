@@ -11,9 +11,9 @@ const NavBar = ()=>{
             </div>
             <div className='begin-3'>
             <p>Home</p>
+            <p>Projects</p>
             <p>About</p>
-            <p>Services</p>
-            <p>Dogs</p>
+            <p>Contacts</p>
             <button>Preview</button>
             </div>
         </div>
