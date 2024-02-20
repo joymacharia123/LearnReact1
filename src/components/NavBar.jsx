@@ -1,5 +1,6 @@
 import './NavBar.css'
 import Dog from "../assets/Standing-Dog-Logo.jpg"
+import { Link } from 'react-router-dom'
 
 const NavBar = ()=>{
 
@@ -10,11 +11,10 @@ const NavBar = ()=>{
                 <img src={Dog}/>
             </div>
             <div className='begin-3'>
-            <p>Home</p>
-            <p>Projects</p>
-            <p>About</p>
-            <p>Contacts</p>
-            <button>Preview</button>
+                <Link to='/'>Home</Link>
+                <Link to='/projects'>Projects</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/contacts'>Contacts</Link>
             </div>
         </div>
 

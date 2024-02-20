@@ -1,13 +1,31 @@
-.middle{
+.middle-2{
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-right: 40px;
     margin-left: 40px;
+    height: 100px;
+    width: 100px;
+    justify-content:center;
+    
 
     >img{
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 9999px;
+        
+
     }
+}
+
+.middle-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.middle{
+    display: flex;
+    gap: 800px;
+    margin-top: 200px;
 }
